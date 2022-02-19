@@ -16,7 +16,7 @@ function App() {
 
       <div className="AppContainer">
         <Slider />
-        <h3 class="slider-cards">Repeat Recent</h3>
+        <h3 class="slider-cards ">Repeat Recent</h3>
         <Cards isPopular />
         <h3 class="slider-cards">Repeat Recent</h3>
         <Cards />

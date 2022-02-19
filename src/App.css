@@ -317,7 +317,8 @@ width:120px
 }
 /* /////  card */
 .slider-cards {
-  color:#A8123E
+  color:#A8123E;
+  margin-top: 15px;
 
 }
 .popular-product .mycard{

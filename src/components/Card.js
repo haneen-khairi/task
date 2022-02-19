@@ -32,7 +32,6 @@ const Card = ({ isPopular }) => {
                 +{" "}
               </a>
               <a href="#" class="btn-add-product">
-                {" "}
                 ADD
               </a>
             </div>
