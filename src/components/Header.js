@@ -1,7 +1,7 @@
 import React from "react";
-import { Badge } from "@mui/material";
-import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
+
 import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
+import CartMenu from "./CartMenu"
 const Header = () => {
   return (
     <header>
@@ -59,9 +59,8 @@ const Header = () => {
               </li>
               <li class="nav-item nav-itemss ">
                 <a class="nav-link  " href="#">
-                  <Badge badgeContent={4} color="error">
-                    <ShoppingCartIcon />
-                  </Badge>
+                
+                  <CartMenu />
                 </a>
               </li>
               <li class="nav-item nav-itemss">
