@@ -17,7 +17,7 @@ footer{
 
 }
 .sliderImg{
-height: 300px;
+height: 100%;
 margin-top: 15px;
 }
 .navbar{
@@ -251,7 +251,7 @@ footer a{
   color: #707070;
   font-size:0.8rem;
 }
-.nav-dark-lines ,p  {
+.nav-dark-lines , .nav-dark-lines p  {
   background-color:#FF8236;
   color: #ffffff;
   text-align: center;
@@ -282,6 +282,7 @@ footer a{
 .follow-us li a{
 background-color: #000000;
 padding:10px;
+margin:5px;
 border-radius:50px;
 }
 .follow-us li a i{
@@ -312,21 +313,28 @@ width:120px
   border-radius:5px;
 }
 .app-down .app-download a .ww{
-
-  
   width: 106px;
-
 }
 
 .footer-logo{
   width: 18rem;
-  /* margin-left: 0px; */
   margin: 15px 0px;
 }
 /* /////  card */
 .slider-cards {
   color:#A8123E;
-  margin-top: 15px;
+  margin-top: 40px;
+  margin-bottom:30px;
+
+}
+.popular-product{
+  display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
 
 }
 .popular-product .mycard{
@@ -334,7 +342,8 @@ width:120px
   align-items: center;
   margin: 5px;
   background: #ffffff!important;
-  width: 210px!important;
+  width: 235px!important;
+  padding: 1px;
   border-radius: 18px;
 }
 .popular-product .mycard .img-card{
@@ -386,6 +395,8 @@ right:5px; */
   border-top:1px solid #C2C2C2;
   background:#F9F9F9;
   padding:10px;
+  margin:unset;
+  align-self: normal;
 }
 .popular-product .mycard .bottom-card .input-add-product-num{
   border:none!important;
@@ -439,15 +450,16 @@ right:5px; */
 .strikethrough:before {
   position: absolute;
   content: "";
-  left: 31%;
-  top: 50%;
+  left: 17%;
+  top: 43%;
   width: 80px;
   right: 0;
   border-top: 1px solid;
   border-color: inherit;
+  transform: rotate(-5deg);
   -webkit-transform: rotate(-5deg);
   -moz-transform: rotate(-5deg);
   -ms-transform: rotate(-5deg);
   -o-transform: rotate(-5deg);
-  transform: rotate(-5deg);
+
 }
